@@ -6,3 +6,4 @@
       2. Writing to memory that has been freed
   - gapless ring buffer
     - eliminates the need for wraparound logic in buffer write and read.
+    - ```gcc gapless_ring_buffer.c test_ring_buffer.c -o test_ring_buffer```
